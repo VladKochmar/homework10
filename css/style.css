@@ -1,0 +1,237 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 24px;
+	color: #f5f5f5;
+	font-family: Roboto;
+}
+.wrapper {
+	min-height: 100%;
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+/* ------------------------------ */
+.container__who-we-are {
+	margin: 0px 0px 230px 0px;
+}
+.who-we-are {
+	padding: 100px 87px 0px;
+	background: url("../img/who-we-are/bg-blob.png") 54px bottom no-repeat, #5d62b5;
+	border-radius: 40px;
+}
+.container {
+	max-width: 1020px;
+}
+.container_center {
+	margin: 0 auto;
+}
+.who-we-are__head {
+	margin: 0px 0px 36px 0px;
+}
+.header-item {
+	max-width: 583px;
+}
+.header-item__subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	padding: 0px 0px 0px 33px;
+	margin: 0px 0px 33px 0px;
+}
+.header-item__subtitle_white-icon {
+	background: url("../img/icons/icon_w.svg") 0 -2px no-repeat;
+}
+.header-item__title {
+	color: #ffffff;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+}
+.who-we-are__text {
+	letter-spacing: 0.15px;
+	margin: 0px 0px 54px 0px;
+}
+.picture {
+}
+.picture__img {
+	border-radius: 40px;
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+	margin: 0px 0px -120px 0px;
+}
+
+.container__promise {
+	margin: 0px 0px 122px 0px;
+}
+.promise {
+}
+.promise__head {
+	margin: 0px 0px 68px 0px;
+}
+.header-item__subtitle_purple-icon {
+	color: #5d62b5;
+	background: url("../img/icons/icon.svg") 0 -2px no-repeat;
+}
+.header-item__title_black {
+	color: #000;
+}
+.items {
+	font-size: 0;
+}
+.items__item {
+	display: inline-block;
+}
+.items__item:not(:last-child) {
+	margin: 0px 24px 0px 0px;
+}
+.items__image {
+	margin: 0px 23px 0px 0px;
+}
+.items__body {
+	display: inline-block;
+	max-width: 235px;
+}
+.items__title {
+	color: #f2726f;
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	margin: 0px 0px 20px 0px;
+}
+.items__text {
+	color: #4b4b4b;
+	font-size: 16px;
+	letter-spacing: 0.15px;
+}
+.container__gallery {
+	margin: 0px 0px 240px 0px;
+}
+.gallery {
+	padding: 100px 87px 0px;
+	background-color: #5d62b5;
+	border-radius: 40px;
+}
+.gallery__head {
+	margin: 0px 0px 64px 0px;
+}
+.gallary__list {
+	margin: 0px 0px 50px 0px;
+}
+.list {
+	text-align: center;
+	font-size: 0;
+}
+.list__item {
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 0.15px;
+	display: inline-block;
+}
+.list__item:hover {
+	font-weight: 700;
+}
+.list__item::after {
+	content: "";
+	display: block;
+	width: 211px;
+	height: 1px;
+	background-color: #d8d8d8;
+	margin: 15px 0px 0px 0px;
+}
+.list__item:hover::after {
+	background-color: #ffffff;
+	height: 4px;
+}
+.list__item_green-dot::before {
+	content: "";
+	display: block;
+	height: 6px;
+	width: 6px;
+	background: #62b58f;
+	border-radius: 50%;
+	margin: 0px 0px 0px 174px;
+}
+.list__item_gray-dot::before {
+	content: "";
+	display: block;
+	height: 6px;
+	width: 6px;
+	background: #d5d5d5;
+	border-radius: 50%;
+	margin: 0px 0px 0px 174px;
+}
+.background {
+	background: #29c3be;
+}
+.container__impact {
+}
+.impact {
+	font-size: 0;
+	padding: 112px 0px 212px 0px;
+}
+.impact__head {
+	margin: 0px 111px 79px 0px;
+}
+.header-item_small-display {
+	max-width: 411px;
+	display: inline-block;
+}
+.items__item_width {
+	width: 237px;
+}
+.impact__image {
+	border-radius: 40px;
+	margin: -192px 0px 0px 0px;
+}
+.items__image_margin {
+	margin: 0px 12px 0px 0px;
+}
+.items__title_white-big {
+	color: #ffffff;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	margin: 0px 0px 3px 0px;
+}
+.items__text_purple-weight {
+	color: #5d62b5;
+	font-weight: 700;
+}
